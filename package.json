@@ -1,6 +1,6 @@
 {
   "name": "ssam-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React component for Ssam.js canvas package",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
