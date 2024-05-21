@@ -1,0 +1,35 @@
+{
+  "name": "ssam-react",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React component for Ssam.js canvas package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noemit && tsup src/index.tsx",
+    "preview": "vite preview",
+    "watch": "tsup --watch",
+    "example": "vite ./example"
+  },
+  "keywords": [
+    "react",
+    "ssam",
+    "canvas"
+  ],
+  "author": "Daeinc",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "ssam": "^0.18.5"
+  }
+}
