@@ -29,17 +29,19 @@ export const settings: SketchSettings = {
 };
 ```
 
-In your React app, import `<Ssam>` component and pass the `sketch` and `settings` props:
+In your React app, import `<SsamReact>` component and pass the `sketch` and `settings` props:
 
 ```jsx
-import Ssam from "../src/index";
+// App.tsx
+
+import SsamReact from "ssam-react";
 import { sketch, settings } from "./sketch";
 
 export function default App() {
   return (
     <>
       <OtherStuff />
-      <Ssam sketch={sketch} settings={settings} />
+      <SsamReact sketch={sketch} settings={settings} />
     <>
   )
 }
